@@ -9,13 +9,18 @@ The scripts showcase expertise in handling errors with precision, making efficie
 
 <h2>Utilities Used</h2>
 
-- <b>Python</b> 
-- <b>Python Libraries: urllib, requests, request.exceptions, response, json, sockets, bcrypt, gtoken, logging, smtplib  </b>
-- <b>Wireshark</b>
-- <b>TCPReply</b>
-- <b>Squert</b>
-- <b>Security Onion</b>
-- <b>Linux</b>
+<h3>Python Libraries: </h3>
+
+- <b>urllib</b>
+- <b>requests</b>
+- <b>request.exceptions</b>
+- <b>response</b>
+- <b>json</b>
+- <b>sockets</b>
+- <b>bcrypt</b>
+- <b>gtoken</b>
+- <b>logging</b>
+- <b>smtplib</b>
 
 
 
