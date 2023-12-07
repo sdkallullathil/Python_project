@@ -47,7 +47,11 @@ Similarly, within the client's Python script, a socket is created, establishing 
 
 
 <br/>
-<img src="https://github.com/sdkallullathil/Boleto/blob/9fbf504b978e596ea53633eb512facad8e1b23f8/packets.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/sdkallullathil/Python_project/blob/276c15eca3a81b203e2d73bb73c242423f868e78/server-1.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
+
+<br/>
+<img src="https://github.com/sdkallullathil/Python_project/blob/276c15eca3a81b203e2d73bb73c242423f868e78/server-2.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>Password Security</h2>
@@ -58,6 +62,10 @@ The project demonstrates a robust approach to password security through the impl
 
 <h3> Password Hash Checks:</h3> 
 Upon initiating communication, the client is prompted to provide credentials, comprising a username and password with <b>client.py</b> script. The server side meticulously converts this input into hashed values, employing the same hashing algorithm used during the initial password creation. Subsequently, these hashed values are verified against the stored password hashes for authentication purposes. Access to the chat application is granted only if the hashed passwords match, emphasizing the importance of secure authentication.<br/><br/>
+
+<br/>
+<img src="https://github.com/sdkallullathil/Python_project/blob/276c15eca3a81b203e2d73bb73c242423f868e78/client.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
 
 Incorporating an added layer of security, the system limits the client to three password attempts. In the event of an incorrect password entry, the system intelligently communicates the remaining number of trials. If the client surpasses three unsuccessful attempts, access is denied, enhancing security measures by preventing further password trials. This multi-faceted approach underscores the commitment to robust password security and user authentication within the project.
 
@@ -92,9 +100,7 @@ While these self-signed certificates are suitable for testing, in a real-world s
 - <b>client_cert.pem:</b> Client certificate (public key)
 - <b>client_key.pem:</b> Client private key
 
-<br/>
-<img src="https://github.com/sdkallullathil/Boleto/blob/8dfa7cfa19bea5f0281dd4511ce31e0e7c2f1c94/squert.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
-<br />
+
 
 
 <h2>Joke Integration</h2>
@@ -106,6 +112,10 @@ Implemented using the `requests` module, the `get_joke()` function seamlessly ex
 Both the server and client scripts undergo thoughtful modifications to integrate the logic for requesting jokes seamlessly into the chat loop. Users can trigger the joke retrieval process by entering the command "get_joke" during their interaction.
 
 Upon receiving the request, the `get_joke()` function is promptly invoked. The retrieved joke, presented in either a single or two-part format, is then elegantly displayed within the chat interface. This enhancement not only contributes to a more enjoyable user experience but also showcases the project's adaptability in incorporating diverse functionalities, extending beyond conventional text-based communication.
+
+<br/>
+<img src="https://github.com/sdkallullathil/Python_project/blob/276c15eca3a81b203e2d73bb73c242423f868e78/joke.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
 
 <h2>Robust Error Handling</h2>
 
