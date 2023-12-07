@@ -24,13 +24,11 @@ The scripts showcase expertise in handling errors with precision, making efficie
 
 
 
-<h2>Environment Setup</h2>
+<h2>Overview</h2>
 
-- Deployed <b>Security Onion</b> as a virtual machine, strategically establishing a controlled and secure environment for in-depth analysis.
-- Leveraged <b>Wireshark</b>, a powerful tool, to conduct thorough pcap analysis, providing detailed insights into network traffic and facilitating the identification of potential threats or anomalies.
-- Employed <b>Snort IDS Rules</b>, a robust intrusion detection system, to enhance alerting capabilities. These rules were meticulously crafted to promptly identify and flag any suspicious activity, acting as a vigilant guardian against potential security threats.
-- Utilized <b>TCPReply</b> to simulate and validate the effectiveness of defensive measures. This tool orchestrated the rerun of the pcap, allowing for precise examination and verification of the network's response to potential threats.
-- Integrated <b>Squert</b> into the analysis framework for log and alert visualization. Squert provided a comprehensive and organized display of security events, enhancing our ability to interpret and respond effectively to the nuanced landscape of potential cybersecurity threats.
+This Python script is crafted to deliver jokes by utilizing API calls, and it operates as a command-line application. Users securely authenticate with their credentials, which are securely stored on the server. The passwords are stored in a hashed form. During the sign-in process, the script compares the entered hash with the stored hash to determine whether to grant the client access to the application.<br/>
+
+Upon successful authentication, the client is presented with a list of topics. Once a topic is selected, a joke is provided to the client. For added convenience, clients have the option to receive the joke via email. They can securely log in to their email accounts within the application and send the chosen joke to another email address. This feature ensures a seamless and secure experience for users interacting with the script.
 
 
 <h2>Pcap File Analysis</h2>
