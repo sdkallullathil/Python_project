@@ -27,7 +27,7 @@ In addition to the technical prowess demonstrated in establishing a secure commu
 - <b>logging</b>
 - <b>smtplib</b>
 
-<br/>
+
 <h2>Project Components</h2>
 <br/>
 - <b>server.py</b>: Handles server-side operations, authentication, and integration of the joke feature.<br/><br/>
